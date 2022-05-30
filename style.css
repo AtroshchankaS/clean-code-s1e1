@@ -5,28 +5,28 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.titl {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.titl img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.titl .info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .titl {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.items {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -71,7 +71,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -99,7 +99,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -148,7 +148,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through;
+  text-decoration: line-through
   color: #888;
 }
 
